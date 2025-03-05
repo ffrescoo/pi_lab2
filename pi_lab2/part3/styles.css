@@ -1,0 +1,22 @@
+reservations {
+    display: block;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  reservation {
+    display: block;
+    background-color: #d9e8f5;
+    border: 2px solid #2a75bb;
+    padding: 15px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+    
+  name, amountOfNumbers, requirements, duration {
+    display: block;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
