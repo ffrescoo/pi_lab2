@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE reservations SYSTEM "booking.dtd">
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+<reservations>
+  <reservation>
+    <name>John Doe</name>
+    <amountOfNumbers>2</amountOfNumbers>
+    <requirements>Sea view, king-size bed</requirements>
+    <duration>5 nights</duration>
+  </reservation>
+  <reservation>
+    <name>Jane Smith</name>
+    <amountOfNumbers>1</amountOfNumbers>
+    <requirements>Non-smoking, near elevator</requirements>
+    <duration>3 nights</duration>
+  </reservation>
+  <reservation>
+    <name>Michael Brown</name>
+    <amountOfNumbers>3</amountOfNumbers>
+    <requirements>Family suite, extra bed</requirements>
+    <duration>7 nights</duration>
+  </reservation>
+  <reservation>
+    <name>Emily Davis</name>
+    <amountOfNumbers>1</amountOfNumbers>
+    <requirements>Pet-friendly, ground floor</requirements>
+    <duration>4 nights</duration>
+  </reservation>
+  <reservation>
+    <name>Robert Johnson</name>
+    <amountOfNumbers>2</amountOfNumbers>
+    <requirements>Balcony, late check-in</requirements>
+    <duration>6 nights</duration>
+  </reservation>
+</reservations>

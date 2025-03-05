@@ -1,0 +1,8 @@
+<!DOCTYPE reservations [
+  <!ELEMENT reservations (reservation+)>
+  <!ELEMENT reservation (name, amountOfNumbers, requirements, duration)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT amountOfNumbers (#PCDATA)>
+  <!ELEMENT requirements (#PCDATA)>
+  <!ELEMENT duration (#PCDATA)>
+]>
